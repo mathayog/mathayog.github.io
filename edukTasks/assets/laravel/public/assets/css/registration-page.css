@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Omnes-Bold', sans-serif;
+}
+
+@font-face {
+    font-family: 'Omnes-Bold';
+    /* You can specify any name you want */
+    src: url('../fonts/Omnes-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Omnes-Regular';
+    /* You can specify any name you want */
+    src: url('../fonts/Omnes-Regular.woff') format('woff');
+}
+
+.register-container {
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url('../images/backgrounds/register_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.register-page-title-description {
+    margin-bottom: 4vh;
+    width: 55vw;
+    height: 80vh;
+}
+
+.register-page-icon-title,
+.register-page-description {
+    height: 10rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.register-page-title {
+    color: white;
+    font-size: 3.75rem;
+    transform: translateY(-15px);
+    letter-spacing: 3px;
+    margin-left: 1.5rem;
+    margin-right: 2rem;
+}
+
+.page-description {
+    color: white;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+
+    line-height: 3rem;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 45vw;
+    height: 85vh;
+
+    padding-top: 2rem;
+    padding-right: 3rem;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 1.25rem;
+
+    width: 80%;
+    height: 95%;
+    background-color: white;
+    border-radius: 25px;
+    padding: 2.5rem;
+
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+
+    margin-top: 2vh;
+}
+
+.registration-form-title {
+    color: #4B4B4B;
+    text-align: center;
+
+    font-size: 1.8rem;
+
+    letter-spacing: 1px;
+    line-height: 2.5rem;
+}
+
+.dashed-line {
+    border-top: 4px dashed #E5E5E5;
+    width: 100%;
+    margin: 10px 0;
+    margin-bottom: 30px;
+}
+
+.page-form {
+    width: 28vw;
+}
+
+.registration-form-name {
+    display: flex;
+}
+
+.registration-form-firstname {
+    margin-right: 5%;
+}
+
+.firstname {
+    width: 90%;
+}
+
+.lastname {
+    width: 90%;
+}
+
+.registration-label {
+    font-family: 'Omnes-Regular', sans-serif;
+    color: #4B4B4B;
+    font-size: 1.25rem;
+}
+
+.registration-input {
+    width: 100%;
+    height: 2rem;
+    border-radius: 10px;
+    border: 1px solid #E5E5E5;
+    font-family: 'Omnes-Regular',sans-serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding: 1.75rem;
+
+    font-size: 20px;
+    background-color: #F9F9F9;
+
+}
+
+/* Style for the input when it's in focus (active) */
+.registration-input:focus {
+    outline-color: #859CFF; /* Change this to your desired border color */
+}
+
+
+.registration-btn {
+    height: 1.5rem;
+    font-family: 'Omnes-Bold', sans-serif;
+    font-size: 1.45rem;
+    color: white;
+    height: 3em;
+    width: 100%;
+    border-color: transparent;
+    background-color: #859CFF;
+    border-radius: 20px;
+    border-bottom: 12px solid #7187E4;
+    margin-top: 1.5rem;
+
+    transition: background-color 0.4s;
+}
+
+
+.registration-btn:hover {
+    background-color: #9CAFFF;
+    cursor: pointer;
+}

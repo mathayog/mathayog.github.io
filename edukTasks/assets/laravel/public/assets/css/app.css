@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: 'Omnes-Bold'; /* You can specify any name you want */
+  src: url('../fonts/Omnes-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Omnes-Regular'; /* You can specify any name you want */
+  src: url('../fonts/Omnes-Regular.woff') format('woff');
+}
+
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
