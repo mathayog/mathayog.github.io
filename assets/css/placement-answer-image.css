@@ -201,7 +201,7 @@ li > a {
 .correct-feedback, .incorrect-feedback {
     display: none;
     align-items: center;
-    animation: slideUp 2s forwards;
+    animation: slideUp 0.8s forwards;
 
 }
 
