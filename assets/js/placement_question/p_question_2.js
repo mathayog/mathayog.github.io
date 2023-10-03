@@ -28,7 +28,6 @@ h2Elements.forEach((element) => {
     bottomButton.style.height = '20vh';
     
     // Set the answerSelected flag to true
-    answerSelected = true;
   });
 });
 

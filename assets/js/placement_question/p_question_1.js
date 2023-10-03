@@ -1,5 +1,4 @@
 // Get all the h2 elements
-const h2Elements = document.querySelectorAll('.a-choice, .b-choice, .c-choice, .d-choice');
 // Get the bottom-button element
 const bottomButton = document.querySelector('.bottom-button');
 const nextButton = document.getElementById('nextButton');
@@ -8,6 +7,7 @@ const checkButton = document.getElementById('nextButton');
 const correctFeedback = document.querySelector('.correct-feedback');
 const incorrectFeedback = document.querySelector('.incorrect-feedback');
 
+const h2Elements = document.querySelectorAll('.a-choice, .b-choice, .c-choice, .d-choice');
 
 let answerSelected = false;
 
@@ -28,7 +28,6 @@ h2Elements.forEach((element) => {
     bottomButton.style.height = '20vh';
     
     // Set the answerSelected flag to true
-    answerSelected = true;
   });
 });
 
